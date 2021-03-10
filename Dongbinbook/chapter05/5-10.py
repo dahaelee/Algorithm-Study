@@ -9,7 +9,7 @@ for _ in range(n):
 
 def dfs(x, y):
     # 범위를 벗어나는 경우 즉시 종료
-    if (x < 0 or x >= n or y < 0 or y >= m):
+    if x < 0 or x >= n or y < 0 or y >= m:
         return False
 
     # 지금 노드에 방문한 적 없고 0이면 dfs 수행 (0인 칸을 방문하면 1로 바꿔줌으로써 방문 체크)
