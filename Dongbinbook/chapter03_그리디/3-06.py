@@ -1,5 +1,3 @@
-# 수학적으로 풀기
-
 n, k = map(int, input().split())
 
 cnt = 0

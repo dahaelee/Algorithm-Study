@@ -1,5 +1,3 @@
-# BFS 예제
-
 from collections import deque
 
 def bfs(graph, start, visited):

@@ -1,5 +1,3 @@
-# min 함수 사용
-
 n, m = map(int, input().split())
 
 mins = []

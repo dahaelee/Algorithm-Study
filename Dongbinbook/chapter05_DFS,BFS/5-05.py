@@ -1,5 +1,3 @@
-# 팩토리얼 예제
-
 def iter(n):
     res = 1
     for i in range(1, n+1):

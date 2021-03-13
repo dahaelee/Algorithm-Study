@@ -1,5 +1,3 @@
-# 재귀함수 예제
-
 i = 1
 
 def recursive():

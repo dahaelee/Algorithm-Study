@@ -1,5 +1,3 @@
-# 스택 예제
-
 stack = []
 
 stack.append(5)
