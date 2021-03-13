@@ -1,5 +1,3 @@
-# 인접 리스트 방식 예제
-
 graph = [[] for _ in range(3)]
 
 graph[0].append((1, 7))

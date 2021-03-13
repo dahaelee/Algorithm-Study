@@ -1,5 +1,3 @@
-# 재귀함수 종료 예제
-
 def recursive(i):
     if i == 10:
         return

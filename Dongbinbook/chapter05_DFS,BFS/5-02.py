@@ -1,5 +1,3 @@
-# 큐 예제
-
 from collections import deque
 
 queue = deque()
