@@ -1,3 +1,5 @@
+// 13회 10번 해설 소스코드
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
