@@ -5,7 +5,6 @@
 - 13-02 : [거스름돈 계산](https://level.goorm.io/exam/111406/13%ED%9A%8C-e-pper-2-%EA%B1%B0%EC%8A%A4%EB%A6%84%EB%8F%88-%EA%B3%84%EC%82%B0/quiz/1)
 - 13-07 : [Palindrome을 만들기까지의 횟수](https://level.goorm.io/exam/109224/13%ED%9A%8C-e-pper-7-palindrome%EC%9D%84-%EB%A7%8C%EB%93%A4%EA%B8%B0%EA%B9%8C%EC%A7%80%EC%9D%98-%ED%9A%9F%EC%88%98/quiz/1)
 - 13-09 : [주울 수 있는 최대 돈](https://level.goorm.io/exam/109218/13%ED%9A%8C-e-pper-9-%EC%A3%BC%EC%9A%B8-%EC%88%98-%EC%9E%88%EB%8A%94-%EC%B5%9C%EB%8C%80-%EB%8F%88/quiz/1)
-- 13-10 : [접두어 트리](https://level.goorm.io/exam/109212/13%ED%9A%8C-epper-10-%EC%A0%91%EB%91%90%EC%96%B4-%ED%8A%B8%EB%A6%AC/quiz/1)
 - 14-05 : [단어 게임](https://level.goorm.io/exam/109221/14%ED%9A%8C-e-pper-5-%EB%8B%A8%EC%96%B4-%EA%B2%8C%EC%9E%84/quiz/1)
 - 14-08 : [토마토 보관](https://level.goorm.io/exam/109222/14%ED%9A%8C-e-pper-8-%ED%86%A0%EB%A7%88%ED%86%A0-%EB%B3%B4%EA%B4%80/quiz/1)
 - 15-03 : [재고 없는 날](https://level.goorm.io/exam/100817/15%ED%9A%8C-e-pper-3%EB%B2%88/quiz/1)
