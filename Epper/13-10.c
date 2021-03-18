@@ -5,7 +5,7 @@
 #include <string.h>
 #include <math.h>
 
-#define MAXN 16		 // 접두어 개수의 최대값
+#define MAXN 16		// 접두어 개수의 최대값
 #define MAXL 1<<20	// str배열의 최대 길이. str 배열을 전역변수로 선언하기 위함.
 #define inf 1 << 30	// 코드 내에서 infinite 값, 가장 큰 값을 표현.
 
@@ -59,7 +59,7 @@ int solve(int mask) {
 int main(void) {
 	memset(dp, -1, sizeof(dp));	// dp 배열의 값을 모두 1로 초기화.
 	scanf("%d", &n); // 접두어의 개수를 입력받음
-					 //접두어를 입력받음
+	//접두어를 입력받음
 	for (int i = 0; i < n; ++i)
 		scanf("%s", str[i]);
 
