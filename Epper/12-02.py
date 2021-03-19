@@ -4,7 +4,7 @@ def solution(n):
         r = 15
     else:
         q = (n // 15) + 1
-        r = (n % 15)
+        r = n % 15
     return q, r
 
 n = int(input())

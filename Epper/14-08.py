@@ -28,8 +28,8 @@ def solution(arr, n, m):
                 arr[nx][ny] = arr[x][y] + 1
                 queue.append((nx, ny))
 
-    for i in range(n):
-        if 0 in arr[i]:
+    for row in arr:
+        if 0 in row:
             return -1
 
     return max(map(max, arr)) - 1
