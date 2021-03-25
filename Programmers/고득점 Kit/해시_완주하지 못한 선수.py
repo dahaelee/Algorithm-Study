@@ -13,4 +13,4 @@ def solution(participant, completion):
 
     print(dict)
 
-    return 
+    return dict
