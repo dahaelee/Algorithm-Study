@@ -16,7 +16,7 @@ def solution(participant, completion):
             return p
 
 '''
-# 정확성은 100프로지만 효율성 검사를 통과하지 못함.
+# 아래 코드는 정확성은 100프로지만 효율성 검사를 통과하지 못함.
 # remove(n)의 시간복잡도가 O(n)이라 for문 안에 들어가면 O(n^2)이 되기 때문
 
 def solution(participant, completion):
