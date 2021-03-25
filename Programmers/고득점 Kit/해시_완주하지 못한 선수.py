@@ -1,7 +1,7 @@
 def solution(participant, completion):
     dic = {}
 
-    # 여기서 count 함수를 쓰면 효율성 탈락
+    # 여기서 count 함수를 쓰면 시간 초과로 효율성 탈락
     for p in participant:
         if p in dic:
             dic[p] += 1
