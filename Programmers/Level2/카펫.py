@@ -5,4 +5,3 @@ def solution(brown, yellow):
             w = yellow // h
             if (w + h) * 2 + 4 == brown:
                 return [w + 2, h + 2]
-            
