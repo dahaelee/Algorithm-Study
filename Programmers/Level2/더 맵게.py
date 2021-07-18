@@ -1,11 +1,17 @@
 from heapq import *
 
+
 def solution(scoville, K):
-    count = 0
+    cnt = 0
     heapify(scoville)
-    while scoville[0] < K and len(scoville) > 1:
-        num1 = heappop(scoville)
-        num2 = heappop(scoville)
-        heappush(scoville, num1 + num2 * 2)
-        count += 1
-    return count if scoville[0] >= K else -1
+
+    while scoville[0] < K:  # scoville[0]이 힙의 최솟값
+        if len(scoville) <= 1:
+            return -1
+
+        n1 = heappop(scoville)
+        n2 = heappop(scoville)
+        heappush(scoville, n1 + n2 * 2)
+        cnt += 1
+
+    return cnt
