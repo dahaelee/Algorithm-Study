@@ -14,16 +14,16 @@ class Solution:
         index_map = {}
         for i, n in enumerate(nums):
             if n in index_map:
-                index_map[n].append(i)
+                index_map[n] = [index_map[n], i]
             else:
-                index_map[n] = [i]
+                index_map[n] = i
 
         nums.sort()
 
         for i in range(len(nums)):
-            target1, target2 = nums[i], target - nums[i]
-            if self.binary_search(nums, target2, i + 1, len(nums) - 1):
-                if target1 == target2:
-                    return [index_map[target1][0], index_map[target1][1]]
+            t1, t2 = nums[i], target - nums[i]
+            if self.binary_search(nums, t2, i + 1, len(nums) - 1):
+                if t1 == t2:
+                    return index_map[t1]
                 else:
-                    return [index_map[target1][0], index_map[target2][0]]
+                    return [index_map[t1], index_map[t2]]
