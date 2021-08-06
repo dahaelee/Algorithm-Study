@@ -18,7 +18,7 @@ class Solution:
                 diff -= piles[left]
                 left += 1
             else:
-                diff += piles[right]
+                diff -= piles[right]
                 right -= 1
 
         return diff > 0
